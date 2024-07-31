@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/8.3.2/mocha.css">
+</head>
+<body>
+  <div id="mocha"></div>
+  <script type="module">
+    import './test/greet.test.js';
+    import './test/isFromBellville.test.js';
+    import './test/regCheck.test.js';
+    import './test/countRegNumber.test.js';
+    import './test/isWeekday.test.js';
+    import './test/yearsAgo.test.js';
+    import './test/countAllPaarl.test.js';
+    import './test/countAllFromTown.test.js';
+    import './test/transportFee.test.js';
+    import './test/totalPhoneBill.test.js';
+    import './test/fromWhere.test.js';
+    import './test/findItemsOver20.test.js';
+    import './test/findItemsOver.test.js';
+    import './test/mostProfitableDepartment.test.js';
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/8.3.2/mocha.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/4.3.4/chai.js"></script>
+  <script>
+    mocha.setup('bdd');
+    mocha.run();
+  </script>
+</body>
+</html>
